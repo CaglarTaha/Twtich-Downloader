@@ -15,14 +15,12 @@ This is a simple script for downloading Twitch videos and streams.
 
 ```git clone https://github.com/CaglarTaha/Twtich-Downloader.git```
 
-###2. Install dependencies:
+### 2. Install dependencies:
 
 
 ### Usage
 
-1. Navigate to the directory:
 
-cd Twtich-Downloader
 
 
 2. Run the script:
