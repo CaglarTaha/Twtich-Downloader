@@ -34,7 +34,6 @@ def download_video():
     streamer = MyStreamer(consumer_key, consumer_secret, access_token, access_token_secret)
     streamer.statuses.filter(track=url)
 
-    # Wait for the streamer to get the video URL
     while streamer.video_url == "":
         pass
 
@@ -46,7 +45,7 @@ def download_video():
  
     tk.messagebox.showinfo("Download Complete", f"The video has been downloaded as {video_file_name}.")
 
-# Create the GUI
+
 root = tk.Tk()
 root.title("Twitch Video Downloader")
 root.geometry("1080x720")
